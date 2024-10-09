@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 85% !important;
+  }
+}
+.sans-serif {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.text-hover:hover {
+  color: rgb(196, 22, 132) !important;
+  transform: scale(1.1);
+  text-shadow: 0px 0px 1px black;
+}
+.Oleo-font {
+  font-family: "Oleo Script", system-ui;
+}
+.acticle p{
+  font-size: clamp(12px, 3.4vw, 18px);
+}
+.acticle h1{
+  font-size: clamp(30px, 3.4vw, 60px);
+  font-weight: bold;
+  text-shadow: 0px 0px 5px white;
+}
+@media (min-width: 576px) {
+  .acticle {
+    padding-left: 120px !important;
+  }
+}
